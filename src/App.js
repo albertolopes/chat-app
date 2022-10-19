@@ -1,10 +1,10 @@
 import React from "react";
 import ChatRoom from "./component/ChatRoom";
 
-function App() {
+const App = () => {
   return (
-    <ChatRoom></ChatRoom>
-  );
+    <ChatRoom />
+  )
 }
 
 export default App;
