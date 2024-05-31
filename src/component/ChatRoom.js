@@ -18,7 +18,7 @@ const ChatRoom = () => {
     }, [userData]);
 
     const connect =()=>{
-        let Sock = new SockJS('https://allo-chat-backend.herokuapp.com/ws');
+        let Sock = new SockJS('https://chat-by8j.onrender.com/ws');
         stompClient = over(Sock);
         stompClient.connect({},onConnected, onError);
     }
